@@ -1,6 +1,18 @@
 # 📊 Telecom Sales Performance Analytics Dashboard
 
-![Dashboard Preview](dashboard-preview.png)
+![Power BI](https://img.shields.io/badge/Power_BI-Dashboard-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)
+![SQL](https://img.shields.io/badge/SQL-Queries-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
+![Excel](https://img.shields.io/badge/Excel-Analytics-217346?style=for-the-badge&logo=microsoft-excel&logoColor=white)
+
+## 📸 Dashboard Preview
+
+![Sales Dashboard](images/dashboard-preview.svg)
+
+## 🔄 Workflow
+
+![Analytics Workflow](images/workflow.svg)
+
+---
 
 ## 🎯 Project Overview
 
@@ -42,79 +54,59 @@ Interactive Power BI dashboard with automated data refresh, featuring:
 ## 📂 Project Structure
 
 ```
-project1-sales-dashboard/
+telecom-sales-dashboard/
+│
+├── images/
+│   ├── dashboard-preview.svg    # Visual dashboard preview
+│   └── workflow.svg              # Analytics workflow diagram
 │
 ├── data/
-│   ├── raw/                    # Original datasets
-│   ├── processed/              # Cleaned datasets
-│   └── sample_data.csv         # Sample data for demonstration
+│   └── sample_data.csv          # Sample telecom sales data
 │
 ├── sql/
-│   ├── data_extraction.sql     # SQL queries for data extraction
-│   ├── data_transformation.sql # Data cleaning and transformation
-│   └── kpi_calculations.sql    # KPI calculation queries
+│   └── data_extraction.sql      # SQL queries for data extraction
 │
-├── powerbi/
-│   └── sales_dashboard.pbix    # Power BI dashboard file
-│
-├── screenshots/
-│   ├── dashboard-overview.png
-│   ├── product-analysis.png
-│   └── agent-performance.png
-│
-└── README.md
+└── README.md                     # Project documentation
 ```
 
-## 🚀 How to Use
+## 🚀 SQL Queries Included
 
-1. **View the Dashboard**:
-   - Download `sales_dashboard.pbix` from the `powerbi/` folder
-   - Open with Power BI Desktop (free download from Microsoft)
-   - Explore interactive filters and visuals
+The `sql/data_extraction.sql` file contains 8 comprehensive queries:
 
-2. **Understand the Data**:
-   - Review sample data in `data/sample_data.csv`
-   - Check SQL scripts in `sql/` folder for data processing logic
+1. **Daily Sales Performance** - Extract all sales with customer/product details
+2. **KPI Calculations** - Aggregated metrics for dashboards
+3. **Agent Performance** - Individual agent KPIs and rankings
+4. **Product Analysis** - Best-selling products and revenue breakdown
+5. **Customer Segmentation** - Group customers by value and behavior
+6. **Sales Funnel** - Conversion tracking through pipeline stages
+7. **Regional Performance** - Compare sales across geographies
+8. **Trend Analysis** - Identify seasonal patterns and time-based trends
 
-3. **Customize**:
-   - Replace sample data with your own dataset
-   - Modify SQL queries based on your database structure
-   - Adjust DAX measures for specific KPIs
+## 📊 Sample Data
 
-## 📊 Dashboard Features
-
-### Page 1: Executive Overview
-- Total revenue, orders, conversion rate
-- Month-over-month growth trends
-- Product category breakdown
-- Regional performance map
-
-### Page 2: Sales Deep Dive
-- Sales funnel analysis (Inquiry → Qualified → Closed)
-- Win/loss analysis
-- Product performance comparison
-- Time-series trends
-
-### Page 3: Agent Performance
-- Individual agent KPIs
-- Performance leaderboard
-- Activity metrics (AHT, calls handled, orders processed)
-- Quality scores
-
-### Page 4: Customer Analytics
-- Customer segmentation
-- ARPU by segment
-- Product preferences
-- Churn risk indicators
+The `data/sample_data.csv` includes 30 sample transactions showing:
+- Customer information and segmentation
+- Product details and pricing
+- Sales agent assignments
+- Transaction dates and amounts
+- Order status and completion metrics
 
 ## 🎓 Skills Demonstrated
 
-- Data extraction using SQL
+- Data extraction using SQL (JOINs, aggregations, window functions)
 - Data cleaning and quality assurance
 - Creating calculated columns and measures (DAX)
 - Building interactive dashboards
 - Business intelligence and storytelling with data
 - KPI design and performance tracking
+- Root-cause analysis
+
+## 💼 Real-World Application
+
+This project mirrors my actual work experience:
+- **Bell Mobility**: Analyzed CRM data for 17 agents, tracking conversion rates and order success
+- **Process Improvement**: Reduced data-entry errors by 35% through systematic analysis
+- **Dashboard Creation**: Built automated Power BI reports for management decision-making
 
 ## 📧 Contact
 
@@ -122,7 +114,7 @@ project1-sales-dashboard/
 Data Analyst | Berlin, Germany  
 📧 sakthivellore17@gmail.com  
 💼 [LinkedIn](https://www.linkedin.com/in/sakthivel-srinivasan)  
-🔗 [GitHub Portfolio](https://github.com/sakthivel-data)
+🌐 [Portfolio Website](https://sakthivel-data.github.io)
 
 ---
 
